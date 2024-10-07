@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@font-face {
+    font-family: otf;
+    src: url('fontes/A.otf') format('opentype');
+  }
+
+  h2 {
+    font-family: otf;
+    color: #4bbb51;
+    font-weight: 16px;
+  }
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    font-family: 'Arial', sans-serif;
+    background-color: #c0f1c2;
+    color: #070707;
+}
+
+a { color:green;
+    font-size: 1.2em;
+    font-weight: bolder;
+
+}
+
+header {
+    background-image: Linear-gradient(to left , #4CAF50, #2E7D32 ) ;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin:  10px 10px 10px 10px;
+}
+
+header p {
+    font-size: 1em;
+}
+
+
+nav {
+    background-color: #2E7D32;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 30 20px;
+    margin-right: 35px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+
+main {
+    margin: 90px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+     
+        font-size: 1.5em;
+        line-height: 1.5;
+        
+    }
+
+
+main p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+
+
+article > aside {
+    background: #2E7D32;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgb(155, 241, 188);
+
+
+
+}
+ 
+aside > h2 {
+    margin: 10px 10px 10px 10px;
+   background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+
+}
+aside > ul {
+ 
+    margin: 10px 10px 10px 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-inline: 30px;
+
+}
+section > p {
+    padding-left: 100px;
+}
+
+footer {
+    background-color: #2E7D32;
+    color: white;
+    text-align: center;
+    padding: 30px 10;
+    position: absolute;
+    width: 100%;
+    bottom: 20;
+}
